@@ -1,7 +1,7 @@
 {
   "name": "tralics",
   "version": "0.0.1",
-  "description": "A latex to xml/json translator",
+  "description": "A latex to javascript json translator",
   "main": "index.js",
   "directories": {
     "test": "test"

@@ -19,7 +19,8 @@ tralic.analyze("hello.tex", function(doc){
 });
 ```
 
+
 :Author: Denny Dai
 :Revision: 0.0.1
-:Date 2013/06/18 
+:Date: 2013/06/18 
 

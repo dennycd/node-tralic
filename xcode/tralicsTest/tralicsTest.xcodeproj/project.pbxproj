@@ -1,0 +1,448 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3E5E00E01559EC6100B3798C /* askmath_tralics.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3E5E00DE1559EC6100B3798C /* askmath_tralics.cpp */; };
+		3E5E00E11559EC6100B3798C /* FlatLatexDoc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3E5E00DF1559EC6100B3798C /* FlatLatexDoc.cpp */; };
+		3E896591175FACC2002EFE43 /* readline.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3E896570175FACC2002EFE43 /* readline.cc */; };
+		3E896592175FACC2002EFE43 /* tralics.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3E896571175FACC2002EFE43 /* tralics.cc */; };
+		3E896593175FACC2002EFE43 /* txaccent.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3E896572175FACC2002EFE43 /* txaccent.cc */; };
+		3E896594175FACC2002EFE43 /* txarray.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3E896573175FACC2002EFE43 /* txarray.cc */; };
+		3E896595175FACC2002EFE43 /* txatt.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3E896574175FACC2002EFE43 /* txatt.cc */; };
+		3E896596175FACC2002EFE43 /* txaux.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3E896575175FACC2002EFE43 /* txaux.cc */; };
+		3E896597175FACC2002EFE43 /* txbib.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3E896576175FACC2002EFE43 /* txbib.cc */; };
+		3E896598175FACC2002EFE43 /* txbuffer.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3E896577175FACC2002EFE43 /* txbuffer.cc */; };
+		3E896599175FACC2002EFE43 /* txclasses.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3E896578175FACC2002EFE43 /* txclasses.cc */; };
+		3E89659A175FACC2002EFE43 /* txcommands.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3E896579175FACC2002EFE43 /* txcommands.cc */; };
+		3E89659B175FACC2002EFE43 /* txconfig.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3E89657A175FACC2002EFE43 /* txconfig.cc */; };
+		3E89659C175FACC2002EFE43 /* txerr.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3E89657B175FACC2002EFE43 /* txerr.cc */; };
+		3E89659D175FACC2002EFE43 /* txfonts.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3E89657C175FACC2002EFE43 /* txfonts.cc */; };
+		3E89659E175FACC2002EFE43 /* txfp.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3E89657D175FACC2002EFE43 /* txfp.cc */; };
+		3E89659F175FACC2002EFE43 /* txio.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3E89657E175FACC2002EFE43 /* txio.cc */; };
+		3E8965A0175FACC2002EFE43 /* txmain.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3E89657F175FACC2002EFE43 /* txmain.cc */; };
+		3E8965A1175FACC2002EFE43 /* txmath.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3E896580175FACC2002EFE43 /* txmath.cc */; };
+		3E8965A2175FACC2002EFE43 /* txmath1.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3E896581175FACC2002EFE43 /* txmath1.cc */; };
+		3E8965A3175FACC2002EFE43 /* txmathboot.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3E896582175FACC2002EFE43 /* txmathboot.cc */; };
+		3E8965A4175FACC2002EFE43 /* txmlio.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3E896583175FACC2002EFE43 /* txmlio.cc */; };
+		3E8965A5175FACC2002EFE43 /* txparser.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3E896584175FACC2002EFE43 /* txparser.cc */; };
+		3E8965A6175FACC2002EFE43 /* txparser2.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3E896585175FACC2002EFE43 /* txparser2.cc */; };
+		3E8965A7175FACC2002EFE43 /* txparser3.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3E896586175FACC2002EFE43 /* txparser3.cc */; };
+		3E8965A8175FACC2002EFE43 /* txpost.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3E896587175FACC2002EFE43 /* txpost.cc */; };
+		3E8965A9175FACC2002EFE43 /* txra.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3E896588175FACC2002EFE43 /* txra.cc */; };
+		3E8965AA175FACC2002EFE43 /* txscan.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3E896589175FACC2002EFE43 /* txscan.cc */; };
+		3E8965AB175FACC2002EFE43 /* txstack.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3E89658A175FACC2002EFE43 /* txstack.cc */; };
+		3E8965AC175FACC2002EFE43 /* txtitlepage.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3E89658B175FACC2002EFE43 /* txtitlepage.cc */; };
+		3E8965AD175FACC2002EFE43 /* txtoken.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3E89658C175FACC2002EFE43 /* txtoken.cc */; };
+		3E8965AE175FACC2002EFE43 /* txtoken1.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3E89658D175FACC2002EFE43 /* txtoken1.cc */; };
+		3E8965AF175FACC2002EFE43 /* txtoken2.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3E89658E175FACC2002EFE43 /* txtoken2.cc */; };
+		3E8965B0175FACC2002EFE43 /* txtranslate.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3E89658F175FACC2002EFE43 /* txtranslate.cc */; };
+		3E8965B1175FACC2002EFE43 /* txtrees.cc in Sources */ = {isa = PBXBuildFile; fileRef = 3E896590175FACC2002EFE43 /* txtrees.cc */; };
+		3E8965B3175FAD39002EFE43 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3E8965B2175FAD39002EFE43 /* main.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3E84FA8C155891BE00257A75 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3E5E00DE1559EC6100B3798C /* askmath_tralics.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = askmath_tralics.cpp; path = ../../src/askmath_tralics.cpp; sourceTree = "<group>"; };
+		3E5E00DF1559EC6100B3798C /* FlatLatexDoc.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = FlatLatexDoc.cpp; path = ../../src/FlatLatexDoc.cpp; sourceTree = "<group>"; };
+		3E5E00E21559F6E700B3798C /* FlatLatexDoc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FlatLatexDoc.h; path = ../../src/FlatLatexDoc.h; sourceTree = "<group>"; };
+		3E84FA8E155891BE00257A75 /* tralicsTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = tralicsTest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E896570175FACC2002EFE43 /* readline.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = readline.cc; path = ../../src/tralics/readline.cc; sourceTree = "<group>"; };
+		3E896571175FACC2002EFE43 /* tralics.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = tralics.cc; path = ../../src/tralics/tralics.cc; sourceTree = "<group>"; };
+		3E896572175FACC2002EFE43 /* txaccent.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = txaccent.cc; path = ../../src/tralics/txaccent.cc; sourceTree = "<group>"; };
+		3E896573175FACC2002EFE43 /* txarray.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = txarray.cc; path = ../../src/tralics/txarray.cc; sourceTree = "<group>"; };
+		3E896574175FACC2002EFE43 /* txatt.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = txatt.cc; path = ../../src/tralics/txatt.cc; sourceTree = "<group>"; };
+		3E896575175FACC2002EFE43 /* txaux.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = txaux.cc; path = ../../src/tralics/txaux.cc; sourceTree = "<group>"; };
+		3E896576175FACC2002EFE43 /* txbib.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = txbib.cc; path = ../../src/tralics/txbib.cc; sourceTree = "<group>"; };
+		3E896577175FACC2002EFE43 /* txbuffer.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = txbuffer.cc; path = ../../src/tralics/txbuffer.cc; sourceTree = "<group>"; };
+		3E896578175FACC2002EFE43 /* txclasses.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = txclasses.cc; path = ../../src/tralics/txclasses.cc; sourceTree = "<group>"; };
+		3E896579175FACC2002EFE43 /* txcommands.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = txcommands.cc; path = ../../src/tralics/txcommands.cc; sourceTree = "<group>"; };
+		3E89657A175FACC2002EFE43 /* txconfig.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = txconfig.cc; path = ../../src/tralics/txconfig.cc; sourceTree = "<group>"; };
+		3E89657B175FACC2002EFE43 /* txerr.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = txerr.cc; path = ../../src/tralics/txerr.cc; sourceTree = "<group>"; };
+		3E89657C175FACC2002EFE43 /* txfonts.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = txfonts.cc; path = ../../src/tralics/txfonts.cc; sourceTree = "<group>"; };
+		3E89657D175FACC2002EFE43 /* txfp.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = txfp.cc; path = ../../src/tralics/txfp.cc; sourceTree = "<group>"; };
+		3E89657E175FACC2002EFE43 /* txio.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = txio.cc; path = ../../src/tralics/txio.cc; sourceTree = "<group>"; };
+		3E89657F175FACC2002EFE43 /* txmain.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = txmain.cc; path = ../../src/tralics/txmain.cc; sourceTree = "<group>"; };
+		3E896580175FACC2002EFE43 /* txmath.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = txmath.cc; path = ../../src/tralics/txmath.cc; sourceTree = "<group>"; };
+		3E896581175FACC2002EFE43 /* txmath1.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = txmath1.cc; path = ../../src/tralics/txmath1.cc; sourceTree = "<group>"; };
+		3E896582175FACC2002EFE43 /* txmathboot.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = txmathboot.cc; path = ../../src/tralics/txmathboot.cc; sourceTree = "<group>"; };
+		3E896583175FACC2002EFE43 /* txmlio.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = txmlio.cc; path = ../../src/tralics/txmlio.cc; sourceTree = "<group>"; };
+		3E896584175FACC2002EFE43 /* txparser.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = txparser.cc; path = ../../src/tralics/txparser.cc; sourceTree = "<group>"; };
+		3E896585175FACC2002EFE43 /* txparser2.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = txparser2.cc; path = ../../src/tralics/txparser2.cc; sourceTree = "<group>"; };
+		3E896586175FACC2002EFE43 /* txparser3.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = txparser3.cc; path = ../../src/tralics/txparser3.cc; sourceTree = "<group>"; };
+		3E896587175FACC2002EFE43 /* txpost.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = txpost.cc; path = ../../src/tralics/txpost.cc; sourceTree = "<group>"; };
+		3E896588175FACC2002EFE43 /* txra.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = txra.cc; path = ../../src/tralics/txra.cc; sourceTree = "<group>"; };
+		3E896589175FACC2002EFE43 /* txscan.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = txscan.cc; path = ../../src/tralics/txscan.cc; sourceTree = "<group>"; };
+		3E89658A175FACC2002EFE43 /* txstack.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = txstack.cc; path = ../../src/tralics/txstack.cc; sourceTree = "<group>"; };
+		3E89658B175FACC2002EFE43 /* txtitlepage.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = txtitlepage.cc; path = ../../src/tralics/txtitlepage.cc; sourceTree = "<group>"; };
+		3E89658C175FACC2002EFE43 /* txtoken.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = txtoken.cc; path = ../../src/tralics/txtoken.cc; sourceTree = "<group>"; };
+		3E89658D175FACC2002EFE43 /* txtoken1.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = txtoken1.cc; path = ../../src/tralics/txtoken1.cc; sourceTree = "<group>"; };
+		3E89658E175FACC2002EFE43 /* txtoken2.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = txtoken2.cc; path = ../../src/tralics/txtoken2.cc; sourceTree = "<group>"; };
+		3E89658F175FACC2002EFE43 /* txtranslate.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = txtranslate.cc; path = ../../src/tralics/txtranslate.cc; sourceTree = "<group>"; };
+		3E896590175FACC2002EFE43 /* txtrees.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = txtrees.cc; path = ../../src/tralics/txtrees.cc; sourceTree = "<group>"; };
+		3E8965B2175FAD39002EFE43 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = tralicsTest/main.cpp; sourceTree = "<group>"; };
+		3E8965B4175FAD6C002EFE43 /* tralics.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = tralics.h; path = ../../src/tralics/tralics.h; sourceTree = "<group>"; };
+		3E8965B5175FAD6C002EFE43 /* txarray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = txarray.h; path = ../../src/tralics/txarray.h; sourceTree = "<group>"; };
+		3E8965B6175FAD6C002EFE43 /* txatt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = txatt.h; path = ../../src/tralics/txatt.h; sourceTree = "<group>"; };
+		3E8965B7175FAD6C002EFE43 /* txbib.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = txbib.h; path = ../../src/tralics/txbib.h; sourceTree = "<group>"; };
+		3E8965B8175FAD6C002EFE43 /* txbuffer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = txbuffer.h; path = ../../src/tralics/txbuffer.h; sourceTree = "<group>"; };
+		3E8965B9175FAD6C002EFE43 /* txchars.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = txchars.h; path = ../../src/tralics/txchars.h; sourceTree = "<group>"; };
+		3E8965BA175FAD6C002EFE43 /* txclasses.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = txclasses.h; path = ../../src/tralics/txclasses.h; sourceTree = "<group>"; };
+		3E8965BB175FAD6C002EFE43 /* txcmd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = txcmd.h; path = ../../src/tralics/txcmd.h; sourceTree = "<group>"; };
+		3E8965BC175FAD6C002EFE43 /* txcond.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = txcond.h; path = ../../src/tralics/txcond.h; sourceTree = "<group>"; };
+		3E8965BD175FAD6C002EFE43 /* txconst.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = txconst.h; path = ../../src/tralics/txconst.h; sourceTree = "<group>"; };
+		3E8965BE175FAD6C002EFE43 /* txeqtb.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = txeqtb.h; path = ../../src/tralics/txeqtb.h; sourceTree = "<group>"; };
+		3E8965BF175FAD6C002EFE43 /* txfonts.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = txfonts.h; path = ../../src/tralics/txfonts.h; sourceTree = "<group>"; };
+		3E8965C0175FAD6C002EFE43 /* txfp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = txfp.h; path = ../../src/tralics/txfp.h; sourceTree = "<group>"; };
+		3E8965C1175FAD6C002EFE43 /* txhash.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = txhash.h; path = ../../src/tralics/txhash.h; sourceTree = "<group>"; };
+		3E8965C2175FAD6C002EFE43 /* txid.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = txid.h; path = ../../src/tralics/txid.h; sourceTree = "<group>"; };
+		3E8965C3175FAD6C002EFE43 /* tximage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = tximage.h; path = ../../src/tralics/tximage.h; sourceTree = "<group>"; };
+		3E8965C4175FAD6C002EFE43 /* txinline.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = txinline.h; path = ../../src/tralics/txinline.h; sourceTree = "<group>"; };
+		3E8965C5175FAD6C002EFE43 /* txio.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = txio.h; path = ../../src/tralics/txio.h; sourceTree = "<group>"; };
+		3E8965C6175FAD6C002EFE43 /* txlogger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = txlogger.h; path = ../../src/tralics/txlogger.h; sourceTree = "<group>"; };
+		3E8965C7175FAD6C002EFE43 /* txmath.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = txmath.h; path = ../../src/tralics/txmath.h; sourceTree = "<group>"; };
+		3E8965C8175FAD6C002EFE43 /* txmath1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = txmath1.h; path = ../../src/tralics/txmath1.h; sourceTree = "<group>"; };
+		3E8965C9175FAD6C002EFE43 /* txmlio.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = txmlio.h; path = ../../src/tralics/txmlio.h; sourceTree = "<group>"; };
+		3E8965CA175FAD6C002EFE43 /* txparam.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = txparam.h; path = ../../src/tralics/txparam.h; sourceTree = "<group>"; };
+		3E8965CB175FAD6C002EFE43 /* txparser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = txparser.h; path = ../../src/tralics/txparser.h; sourceTree = "<group>"; };
+		3E8965CC175FAD6C002EFE43 /* txparser2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = txparser2.h; path = ../../src/tralics/txparser2.h; sourceTree = "<group>"; };
+		3E8965CD175FAD6C002EFE43 /* txpath.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = txpath.h; path = ../../src/tralics/txpath.h; sourceTree = "<group>"; };
+		3E8965CE175FAD6C002EFE43 /* txpost.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = txpost.h; path = ../../src/tralics/txpost.h; sourceTree = "<group>"; };
+		3E8965CF175FAD6C002EFE43 /* txscaled.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = txscaled.h; path = ../../src/tralics/txscaled.h; sourceTree = "<group>"; };
+		3E8965D0175FAD6C002EFE43 /* txstack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = txstack.h; path = ../../src/tralics/txstack.h; sourceTree = "<group>"; };
+		3E8965D1175FAD6C002EFE43 /* txstats.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = txstats.h; path = ../../src/tralics/txstats.h; sourceTree = "<group>"; };
+		3E8965D2175FAD6C002EFE43 /* txstring.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = txstring.h; path = ../../src/tralics/txstring.h; sourceTree = "<group>"; };
+		3E8965D3175FAD6C002EFE43 /* txtitlepage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = txtitlepage.h; path = ../../src/tralics/txtitlepage.h; sourceTree = "<group>"; };
+		3E8965D4175FAD6C002EFE43 /* txtoken.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = txtoken.h; path = ../../src/tralics/txtoken.h; sourceTree = "<group>"; };
+		3E8965D5175FAD6C002EFE43 /* txtokenlist.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = txtokenlist.h; path = ../../src/tralics/txtokenlist.h; sourceTree = "<group>"; };
+		3E8965D6175FAD6C002EFE43 /* txtrees.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = txtrees.h; path = ../../src/tralics/txtrees.h; sourceTree = "<group>"; };
+		3E8965D7175FAD6C002EFE43 /* txvars.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = txvars.h; path = ../../src/tralics/txvars.h; sourceTree = "<group>"; };
+		3E8965D8175FAD6C002EFE43 /* txxml.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = txxml.h; path = ../../src/tralics/txxml.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3E84FA8B155891BE00257A75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3E84FA83155891BE00257A75 = {
+			isa = PBXGroup;
+			children = (
+				3E8965D9175FAD78002EFE43 /* src */,
+				3E8965B2175FAD39002EFE43 /* main.cpp */,
+				3E5E00DE1559EC6100B3798C /* askmath_tralics.cpp */,
+				3E5E00E21559F6E700B3798C /* FlatLatexDoc.h */,
+				3E5E00DF1559EC6100B3798C /* FlatLatexDoc.cpp */,
+				3E84FA8F155891BE00257A75 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3E84FA8F155891BE00257A75 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3E84FA8E155891BE00257A75 /* tralicsTest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3E8965D9175FAD78002EFE43 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				3E8965B4175FAD6C002EFE43 /* tralics.h */,
+				3E8965B5175FAD6C002EFE43 /* txarray.h */,
+				3E8965B6175FAD6C002EFE43 /* txatt.h */,
+				3E8965B7175FAD6C002EFE43 /* txbib.h */,
+				3E8965B8175FAD6C002EFE43 /* txbuffer.h */,
+				3E8965B9175FAD6C002EFE43 /* txchars.h */,
+				3E8965BA175FAD6C002EFE43 /* txclasses.h */,
+				3E8965BB175FAD6C002EFE43 /* txcmd.h */,
+				3E8965BC175FAD6C002EFE43 /* txcond.h */,
+				3E8965BD175FAD6C002EFE43 /* txconst.h */,
+				3E8965BE175FAD6C002EFE43 /* txeqtb.h */,
+				3E8965BF175FAD6C002EFE43 /* txfonts.h */,
+				3E8965C0175FAD6C002EFE43 /* txfp.h */,
+				3E8965C1175FAD6C002EFE43 /* txhash.h */,
+				3E8965C2175FAD6C002EFE43 /* txid.h */,
+				3E8965C3175FAD6C002EFE43 /* tximage.h */,
+				3E8965C4175FAD6C002EFE43 /* txinline.h */,
+				3E8965C5175FAD6C002EFE43 /* txio.h */,
+				3E8965C6175FAD6C002EFE43 /* txlogger.h */,
+				3E8965C7175FAD6C002EFE43 /* txmath.h */,
+				3E8965C8175FAD6C002EFE43 /* txmath1.h */,
+				3E8965C9175FAD6C002EFE43 /* txmlio.h */,
+				3E8965CA175FAD6C002EFE43 /* txparam.h */,
+				3E8965CB175FAD6C002EFE43 /* txparser.h */,
+				3E8965CC175FAD6C002EFE43 /* txparser2.h */,
+				3E8965CD175FAD6C002EFE43 /* txpath.h */,
+				3E8965CE175FAD6C002EFE43 /* txpost.h */,
+				3E8965CF175FAD6C002EFE43 /* txscaled.h */,
+				3E8965D0175FAD6C002EFE43 /* txstack.h */,
+				3E8965D1175FAD6C002EFE43 /* txstats.h */,
+				3E8965D2175FAD6C002EFE43 /* txstring.h */,
+				3E8965D3175FAD6C002EFE43 /* txtitlepage.h */,
+				3E8965D4175FAD6C002EFE43 /* txtoken.h */,
+				3E8965D5175FAD6C002EFE43 /* txtokenlist.h */,
+				3E8965D6175FAD6C002EFE43 /* txtrees.h */,
+				3E8965D7175FAD6C002EFE43 /* txvars.h */,
+				3E8965D8175FAD6C002EFE43 /* txxml.h */,
+				3E896570175FACC2002EFE43 /* readline.cc */,
+				3E896571175FACC2002EFE43 /* tralics.cc */,
+				3E896572175FACC2002EFE43 /* txaccent.cc */,
+				3E896573175FACC2002EFE43 /* txarray.cc */,
+				3E896574175FACC2002EFE43 /* txatt.cc */,
+				3E896575175FACC2002EFE43 /* txaux.cc */,
+				3E896576175FACC2002EFE43 /* txbib.cc */,
+				3E896577175FACC2002EFE43 /* txbuffer.cc */,
+				3E896578175FACC2002EFE43 /* txclasses.cc */,
+				3E896579175FACC2002EFE43 /* txcommands.cc */,
+				3E89657A175FACC2002EFE43 /* txconfig.cc */,
+				3E89657B175FACC2002EFE43 /* txerr.cc */,
+				3E89657C175FACC2002EFE43 /* txfonts.cc */,
+				3E89657D175FACC2002EFE43 /* txfp.cc */,
+				3E89657E175FACC2002EFE43 /* txio.cc */,
+				3E89657F175FACC2002EFE43 /* txmain.cc */,
+				3E896580175FACC2002EFE43 /* txmath.cc */,
+				3E896581175FACC2002EFE43 /* txmath1.cc */,
+				3E896582175FACC2002EFE43 /* txmathboot.cc */,
+				3E896583175FACC2002EFE43 /* txmlio.cc */,
+				3E896584175FACC2002EFE43 /* txparser.cc */,
+				3E896585175FACC2002EFE43 /* txparser2.cc */,
+				3E896586175FACC2002EFE43 /* txparser3.cc */,
+				3E896587175FACC2002EFE43 /* txpost.cc */,
+				3E896588175FACC2002EFE43 /* txra.cc */,
+				3E896589175FACC2002EFE43 /* txscan.cc */,
+				3E89658A175FACC2002EFE43 /* txstack.cc */,
+				3E89658B175FACC2002EFE43 /* txtitlepage.cc */,
+				3E89658C175FACC2002EFE43 /* txtoken.cc */,
+				3E89658D175FACC2002EFE43 /* txtoken1.cc */,
+				3E89658E175FACC2002EFE43 /* txtoken2.cc */,
+				3E89658F175FACC2002EFE43 /* txtranslate.cc */,
+				3E896590175FACC2002EFE43 /* txtrees.cc */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3E84FA8D155891BE00257A75 /* tralicsTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E84FA98155891BE00257A75 /* Build configuration list for PBXNativeTarget "tralicsTest" */;
+			buildPhases = (
+				3E84FA8A155891BE00257A75 /* Sources */,
+				3E84FA8B155891BE00257A75 /* Frameworks */,
+				3E84FA8C155891BE00257A75 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tralicsTest;
+			productName = tralicsTest;
+			productReference = 3E84FA8E155891BE00257A75 /* tralicsTest */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3E84FA85155891BE00257A75 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = AstemSoft;
+			};
+			buildConfigurationList = 3E84FA88155891BE00257A75 /* Build configuration list for PBXProject "tralicsTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3E84FA83155891BE00257A75;
+			productRefGroup = 3E84FA8F155891BE00257A75 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3E84FA8D155891BE00257A75 /* tralicsTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3E84FA8A155891BE00257A75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E896591175FACC2002EFE43 /* readline.cc in Sources */,
+				3E896592175FACC2002EFE43 /* tralics.cc in Sources */,
+				3E896593175FACC2002EFE43 /* txaccent.cc in Sources */,
+				3E896594175FACC2002EFE43 /* txarray.cc in Sources */,
+				3E896595175FACC2002EFE43 /* txatt.cc in Sources */,
+				3E896596175FACC2002EFE43 /* txaux.cc in Sources */,
+				3E896597175FACC2002EFE43 /* txbib.cc in Sources */,
+				3E896598175FACC2002EFE43 /* txbuffer.cc in Sources */,
+				3E896599175FACC2002EFE43 /* txclasses.cc in Sources */,
+				3E89659A175FACC2002EFE43 /* txcommands.cc in Sources */,
+				3E89659B175FACC2002EFE43 /* txconfig.cc in Sources */,
+				3E89659C175FACC2002EFE43 /* txerr.cc in Sources */,
+				3E89659D175FACC2002EFE43 /* txfonts.cc in Sources */,
+				3E89659E175FACC2002EFE43 /* txfp.cc in Sources */,
+				3E89659F175FACC2002EFE43 /* txio.cc in Sources */,
+				3E8965A0175FACC2002EFE43 /* txmain.cc in Sources */,
+				3E8965A1175FACC2002EFE43 /* txmath.cc in Sources */,
+				3E8965A2175FACC2002EFE43 /* txmath1.cc in Sources */,
+				3E8965A3175FACC2002EFE43 /* txmathboot.cc in Sources */,
+				3E8965A4175FACC2002EFE43 /* txmlio.cc in Sources */,
+				3E8965A5175FACC2002EFE43 /* txparser.cc in Sources */,
+				3E8965A6175FACC2002EFE43 /* txparser2.cc in Sources */,
+				3E8965A7175FACC2002EFE43 /* txparser3.cc in Sources */,
+				3E8965A8175FACC2002EFE43 /* txpost.cc in Sources */,
+				3E8965A9175FACC2002EFE43 /* txra.cc in Sources */,
+				3E8965AA175FACC2002EFE43 /* txscan.cc in Sources */,
+				3E8965AB175FACC2002EFE43 /* txstack.cc in Sources */,
+				3E8965AC175FACC2002EFE43 /* txtitlepage.cc in Sources */,
+				3E8965AD175FACC2002EFE43 /* txtoken.cc in Sources */,
+				3E8965AE175FACC2002EFE43 /* txtoken1.cc in Sources */,
+				3E8965AF175FACC2002EFE43 /* txtoken2.cc in Sources */,
+				3E8965B0175FACC2002EFE43 /* txtranslate.cc in Sources */,
+				3E8965B1175FACC2002EFE43 /* txtrees.cc in Sources */,
+				3E5E00E01559EC6100B3798C /* askmath_tralics.cpp in Sources */,
+				3E5E00E11559EC6100B3798C /* FlatLatexDoc.cpp in Sources */,
+				3E8965B3175FAD39002EFE43 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3E84FA96155891BE00257A75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = "";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/usr/local/include/node,
+					"/Users/cda18/Source/node-v0.10.10/src",
+					"/Users/cda18/Source/node-v0.10.10/deps/uv/include",
+					"/Users/cda18/Source/node-v0.10.10/deps/v8/include",
+				);
+				LIBRARY_SEARCH_PATHS = "/Users/cda18/Source/node-v0.10.10/out/Release/";
+				MACOSX_DEPLOYMENT_TARGET = "";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"-lv8_base",
+					"-luv",
+					"-lv8_snapshot",
+				);
+				SDKROOT = "";
+			};
+			name = Debug;
+		};
+		3E84FA97155891BE00257A75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = "";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/usr/local/include/node,
+					"/Users/cda18/Source/node-v0.10.10/src",
+					"/Users/cda18/Source/node-v0.10.10/deps/uv/include",
+					"/Users/cda18/Source/node-v0.10.10/deps/v8/include",
+				);
+				LIBRARY_SEARCH_PATHS = "/Users/cda18/Source/node-v0.10.10/out/Release/";
+				MACOSX_DEPLOYMENT_TARGET = "";
+				OTHER_LDFLAGS = (
+					"-lv8_base",
+					"-luv",
+					"-lv8_snapshot",
+				);
+				SDKROOT = "";
+			};
+			name = Release;
+		};
+		3E84FA99155891BE00257A75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3E84FA9A155891BE00257A75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3E84FA88155891BE00257A75 /* Build configuration list for PBXProject "tralicsTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E84FA96155891BE00257A75 /* Debug */,
+				3E84FA97155891BE00257A75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E84FA98155891BE00257A75 /* Build configuration list for PBXNativeTarget "tralicsTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E84FA99155891BE00257A75 /* Debug */,
+				3E84FA9A155891BE00257A75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3E84FA85155891BE00257A75 /* Project object */;
+}

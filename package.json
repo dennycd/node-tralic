@@ -1,0 +1,38 @@
+{
+  "name": "tralics",
+  "version": "1.0.0",
+  "description": "A latex to xml/json translator",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "nodeunit test",
+    "preinstall" : "node-gyp rebuild"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dennycd/node-tralic.git"
+  },
+  "keywords": [
+    "tralic",
+    "latex",
+    "xml",
+    "json",
+    "translate",
+    "convert",
+    "node",
+    "javascript"
+  ],
+  "author": "Denny C. Dai <dennycd@me.com> (http://dennycd.me/)",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "gitHead": "69176a5f1f91601c61430e3853523098b7d88765",
+  "bugs": {
+    "url": "https://github.com/dennycd/node-tralic/issues"
+  },
+  "engines" : {
+	  "node" : ">=0.10.0"
+  },
+  "os" : [ "darwin", "linux"]
+}

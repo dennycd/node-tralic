@@ -1,7 +1,5 @@
 xcode/**
 xcode/
-
 build/
 build/**
-
 .DS_Store

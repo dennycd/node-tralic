@@ -91,7 +91,7 @@ static void recursive_depth_first(Xml* root, string path, unsigned int index)
     
     
     unsigned int childIndex = 0;
-    for(vector<Xmlp>::const_iterator me = childs.begin(); me!=childs.end(); me++)
+    for(vector<Xmlp>::const_iterator me = childs.begin(); me!=childs.end(); ++me)
     {
         if(*me==NULL) 
         {

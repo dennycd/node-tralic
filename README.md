@@ -18,3 +18,6 @@ tralic.analyze("hello.tex", function(doc){
     console.log("DOC " + util.inspect(doc));
 });
 ```
+### License 
+
+MIT License
